@@ -1,12 +1,30 @@
-body ul{
+body,ul{
     margin: 0;
     padding: 0;
+}
+.body {
+    position: relative;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: -0.15em;
+    fill: white;
+    overflow: hidden;
+ }
+.clearfix {
+    clear: both;
 }
 .nav-list {
     overflow: hidden;
     height: 70px;
 }
-
+.banner{
+    float: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 .nav-list>ul {
     float: left;
     list-style: none;
@@ -30,13 +48,12 @@ body ul{
     border-bottom: solid 3px #E8676B;
 }
 .rs {
-    font-size: 30px;
+    font:400 30px "Arial Black";
     font-weight: 400;
-    /* margin-right: 0px; */
+    float: left;
     color: #E8676B;
 }
 .logo {
-    font-family:  "Arial Black";
     float: left;
     width: auto;
     padding-top: 15px;
@@ -47,12 +64,159 @@ body ul{
     padding: 0;
 }
 .card {
+    font:400 30px "Arial Black";
+    float: left;
+    margin: 0 15px;
     color: #9A9DA2;
-    font-size: 30px;
-    font-weight: 400;
-
 }
 .nav {
     padding: 0;
     width: 100%;
+    background-image: url(../img/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 515px;
 }
+.nav .mask {
+    background-color: rgba(0, 0, 0, 0.8);
+    float: left;
+    height:515px;
+    width: 100%;
+}
+.photo {
+    margin: 0 15px;
+    float: left;
+}
+.photo img {
+   width: 296px;
+   height: 343px;
+}
+.text {
+    float: left;
+    max-width: 502px;
+    margin: 0 15px;
+}
+.text .hello {
+    clear: both;
+}
+.hello {
+    float: left;
+    margin-bottom: 18px;
+}
+.text .hello .word {
+    background-color: #e8676b;
+    color: #fff;
+    font: 700 14px "Open Sans";
+    padding: 7px 12px;
+    line-height: 1.1;   
+}
+.text .hello .triangle {
+    border: solid 0;
+    border-bottom-width: 10px;
+    border-left-width: 10px;
+    border-left-color: #e8676b;
+    border-bottom-color: transparent;
+    margin-left: 5px;  
+}
+.introduce {
+    float: left;
+}
+.introduce h1 {
+    margin: 0;
+}
+.introduce h2 {
+   margin: 0;
+}
+.im {
+    font: 36px "Open Sans" ;
+    color: #6E737D;
+}
+.cr {
+    font: 700 36px "Open Sans" ;
+    color: #3D4451;    
+}
+.job {
+    font: 400 18px "Open Sans" ;
+    color: #4C525E;
+}
+.introduce hr {
+    color: #DEDEDE;
+    size: 1px;
+    width: 472px;
+    opacity: 0.3;
+    margin: 26px 0;
+}
+.list dt {
+    float: left;
+    margin: 0;
+    width: 24%;
+    color: #333333;
+    font: 700 12px "Open Sans";
+    line-height: 20px;
+    margin-bottom: 13px;
+}
+.list .vacation {
+    background-color: #e8676b;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px 5px;
+}
+.list dd {
+    float: left;
+    margin: 0;
+    width: 70%;
+    font: 400 15px "Open Sans";
+    color: #9da0a7;
+    line-height: 20px;
+    margin-bottom: 13px;
+}
+.card-container {
+    float: left;
+    padding: 57px 50px 15px 50px;
+    margin-left:0px;
+    margin-right: 0px;
+    margin-left: 172px;
+    margin-top: 1;
+}
+.clearfix.link-bar {
+    font-size: 15px;
+    float: left;
+    background-color: #E8676B;
+    width: 100%;
+    text-align: center;
+    padding: 31px 0;
+}
+.clearfix.link-bar>ul {
+    list-style: none;
+    float: left;
+    margin-left: 186px;  
+}
+.clearfix.link-bar>ul>li {
+    float: left;
+    /* display: block; */
+    margin: 0 33px;
+}
+.clearfix.link-bar>ul a{
+    text-decoration: none;
+    border: solid 1px transparent;
+    border-radius: 50%;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+.clearfix.link-bar>ul a svg {
+    width: 20px;
+    height: 20px;
+    padding: 10px;   
+}
+.clearfix.link-bar>ul>li a:hover {
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+   
+
+
+  
